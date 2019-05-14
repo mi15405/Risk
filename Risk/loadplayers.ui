@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoadPlayers</class>
+ <widget class="QMainWindow" name="LoadPlayers">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(:/resources/img/tanks_img.png);
+background-position: hover;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Viner Hand ITC&quot;;
+background-color: rgb(230,125,50);
+opacity: 0,5;</string>
+    </property>
+    <property name="text">
+     <string>Start game</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>281</width>
+      <height>215</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 8pt &quot;Viner Hand ITC&quot;;
+background:none;
+color: blue;</string>
+         </property>
+         <property name="text">
+          <string>Player 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="styleSheet">
+          <string notr="true">background:white;
+color: blue;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 8pt &quot;Viner Hand ITC&quot;;
+background:none;
+color: green;</string>
+         </property>
+         <property name="text">
+          <string>Player 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="styleSheet">
+          <string notr="true">background:white;
+color: green;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">font: 8pt &quot;Viner Hand ITC&quot;;background:none;
+color: orange;</string>
+         </property>
+         <property name="text">
+          <string>Player 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="styleSheet">
+          <string notr="true">background:white;
+color: orange;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 8pt &quot;Viner Hand ITC&quot;;
+background:none;
+color: purple;</string>
+         </property>
+         <property name="text">
+          <string>Player 4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="styleSheet">
+          <string notr="true">background:white;
+color: purple;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">font: 8pt &quot;Viner Hand ITC&quot;;
+background:none;
+color: red;</string>
+         </property>
+         <property name="text">
+          <string>Player 5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="styleSheet">
+          <string notr="true">background:white;
+color: red;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="styleSheet">
+          <string notr="true">font: 8pt &quot;Viner Hand ITC&quot;;
+background:none;
+color: cyan;</string>
+         </property>
+         <property name="text">
+          <string>Player 6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="styleSheet">
+          <string notr="true">background: white;
+color: cyan;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none;
+font: 24pt &quot;Viner Hand ITC&quot;;
+color:black;</string>
+    </property>
+    <property name="text">
+     <string>         RISK</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>10</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none;
+color: black;
+font: 12pt &quot;Viner Hand ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Djordje Jovanovic</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>60</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none;
+color: black;
+font: 12pt &quot;Viner Hand ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Marko Serbic</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>110</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none;
+color: black;
+font: 12pt &quot;Viner Hand ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Petar Simic</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

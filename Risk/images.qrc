@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/horseman_icon.png</file>
+        <file>img/map.png</file>
+        <file>img/map_id.png</file>
+        <file>img/ship_icon.png</file>
+        <file>img/soldier_icon.png</file>
+        <file>img/tank_icon.png</file>
+        <file>img/gold_icon.png</file>
+        <file>img/stone_icon.png</file>
+        <file>img/wood_icon.png</file>
+        <file>img/luck_icon.png</file>
+        <file>img/shield_icon.png</file>
+        <file>img/sword_icon.png</file>
+        <file>img/map-c.png</file>
+        <file>img/map-c-resized.png</file>
+        <file>img/tanks_img.png</file>
+    </qresource>
+</RCC>
