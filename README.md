@@ -1,5 +1,5 @@
 # RS014-risk
-![nema slike](https://raw.githubusercontent.com/mi15405/Risk/master/screenshots/01.png)
+![nema slike](https://github.com/mi15405/Risk/blob/master/screenshots/RiskScreenshot.PNG)
 ### Osnovno o projektu
 
 Društvena igra bazirana na diplomatiji i osvajanju za 2 do 6 igrača. Svaki igrač ima teritorije koje su pod</br> njegovom kontrolom, vojsku, resurse i kartice koje je sakupio. Na svakoj teritorije moze da sagradi određena</br> utvrđenja koja bi mu pomogla u daljem osvajanju. Igra se sa 5 kockica (sa vrednostima 1 - 10). U toku igre su</br> mogući i slučajni događaji, koji mogu igraču na potezu da pomognu ili odmognu (gubljenje vojske na nekoj</br> teritoriji, propuštanje poteza, povećanje faktora sreće...).
