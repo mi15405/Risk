@@ -1,3 +1,7 @@
+# Warning
+Original version was lost, this is some backup which doesn't work, but the code is there.
+I think that update of Qt framework has something to do with it
+
 # RS014-risk
 ![nema slike](https://github.com/mi15405/Risk/blob/master/screenshots/RiskScreenshot.PNG)
 ### Osnovno o projektu
